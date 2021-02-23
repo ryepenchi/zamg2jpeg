@@ -1,0 +1,524 @@
+{
+  "type" : "CIMLayoutDocument",
+  "version" : "2.4.0",
+  "build" : 19948,
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/2b542f231efd8ebcf3eb3afba3f829b3.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20210221</CreaDate><CreaTime>20551900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>Weltweite Grundkarte mit hellgrauem Hintergrund</resTitle></idCitation><idAbs>Canvas/World_Light_Gray_Base</idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
+    },
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/535087ceed3491c3451fced42b732356.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20210221</CreaDate><CreaTime>21252800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>Layout</resTitle></idCitation></dataIdInfo><Binary><Thumbnail><Data EsriPropertyType=\"PictureX\">/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\r\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\r\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABGAGMDAREA\r\nAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA\r\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\r\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\r\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA\r\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\r\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\r\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\r\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1/Wta\r\n1Gy1ew0zTNPtbua5gnuGa5u2gVFiaJeCsbkkmUdgBg0AUZvEHiiF9jaDo5IGTjWJf/kanYCJPEvi\r\niUsIPD+kTMkgjdU1l8qxAPObfjAIJHXBHFFgLg1Xxaef7B0Uc451iX/5GpAL/aniz/oBaJ/4OJf/\r\nAJFoADqviwddC0X/AMHEv/yLQADVfFhGf7C0T/wcS/8AyLQAz+1/FREmzQ9EdozhlXWZMg4zg/6N\r\nwcEHnHWgBW1bxWmCdB0fkgcavKeTgdrXpk9e3JPFAD7TWtbLxPqGladbwSgBGj1CR23EZAKtAmOA\r\nepznAx6AGh/akoUuY7UKBnP2k4xx/s+4/MUAPN/cKUL28IRnVcrMSRuIAIG0Z6+tAGlQByutyLF4\r\n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</Data></Thumbnail></Binary></metadata>\r\n"
+    },
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/f445a7fbca3083c4246390794c772a11.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20210221</CreaDate><CreaTime>21211800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>Map</resTitle></idCitation></dataIdInfo><Binary><Thumbnail><Data EsriPropertyType=\"PictureX\">/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\r\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\r\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDAREA\r\nAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA\r\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\r\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\r\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA\r\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\r\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\r\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\r\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1aytl\r\n3lEjhMeeWMQpsC1FZxmSb93D9/8A55D0FICcW0HI8iInPXYKAHC0twMeRF/3wKAGyWFpKu2S2hYZ\r\nzgoKAKkukab50WbG2xlif3Y9KALQhsugjg4/2RQA4W9qxwIYTj0UUAO+y2//ADwi/wC+BQAhtbfB\r\n/cRf98CgCO2tbf7LD+4i+4v8A9KAGzGwt3VZY4VLAkZQUAERsJnKRxwlh22CgCX7LbryYIj77BQB\r\nGLW3+1v+4i/1a/wD1NAE32W3/wCeEX/fAoAabe1XG6GEZOBlRzQAG1tGBBghIPUFBQBWutMsPs5/\r\n0K346fux60ASnT7JGBWwgJ9REvFAEVzeWum2jzyxFYw33UTJ6Z6D6GgCiPFWlG4MH7zzQwUr5R4P\r\n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</Data></Thumbnail></Binary></metadata>\r\n"
+    }
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMTiledServiceLayer",
+      "name" : "Weltweite Grundkarte mit hellgrauem Hintergrund",
+      "uRI" : "CIMPATH=f197108b49164b8fa4fc7ce53fd46ecf.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "metadataURI" : "CIMPATH=Metadata/2b542f231efd8ebcf3eb3afba3f829b3.xml",
+      "useSourceMetadata" : true,
+      "description" : "Canvas/World_Light_Gray_Base",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "mapElevationID" : "{BC1303A6-2CD8-4DCF-9B2E-AAE1940D150C}"
+      },
+      "expanded" : true,
+      "layerType" : "BasemapBackground",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "serviceConnection" : {
+        "type" : "CIMAGSServiceConnection",
+        "objectName" : "Canvas/World_Light_Gray_Base",
+        "objectType" : "MapServer",
+        "url" : "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+        "serverConnection" : {
+          "type" : "CIMInternetServerConnection",
+          "anonymous" : true,
+          "hideUserProperty" : true,
+          "url" : "https://services.arcgisonline.com/ArcGIS/services"
+        }
+      },
+      "transparentColor" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          254,
+          254,
+          254,
+          100
+        ]
+      },
+      "backgroundColor" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          254,
+          254,
+          254,
+          100
+        ]
+      }
+    }
+  ],
+  "mapDefinitions" : [
+    {
+      "type" : "CIMMap",
+      "name" : "Map",
+      "uRI" : "CIMPATH=map1/map1.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant",
+        "start" : 978307200000
+      },
+      "metadataURI" : "CIMPATH=Metadata/f445a7fbca3083c4246390794c772a11.xml",
+      "useSourceMetadata" : true,
+      "illumination" : {
+        "type" : "CIMIlluminationProperties",
+        "ambientLight" : 75,
+        "sunPositionX" : -0.61237243569579003,
+        "sunPositionY" : 0.61237243569579003,
+        "sunPositionZ" : 0.5,
+        "illuminationSource" : "AbsoluteSunPosition",
+        "sunAzimuth" : 315,
+        "sunAltitude" : 30,
+        "showStars" : true,
+        "enableAmbientOcclusion" : true,
+        "enableEyeDomeLighting" : true
+      },
+      "layers" : [
+        "CIMPATH=f197108b49164b8fa4fc7ce53fd46ecf.xml"
+      ],
+      "defaultViewingMode" : "Map",
+      "mapType" : "Map",
+      "datumTransforms" : [
+        {
+          "type" : "CIMDatumTransform",
+          "forward" : true,
+          "geoTransformation" : {
+            "geoTransforms" : [
+              {
+                "wkid" : 8033,
+                "latestWkid" : 1133,
+                "transformForward" : false,
+                "name" : "ED_1950_To_WGS_1984_1"
+              }
+            ]
+          }
+        },
+        {
+          "type" : "CIMDatumTransform",
+          "forward" : false,
+          "geoTransformation" : {
+            "geoTransforms" : [
+              {
+                "wkid" : 8033,
+                "latestWkid" : 1133,
+                "transformForward" : false,
+                "name" : "ED_1950_To_WGS_1984_1"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultExtent" : {
+        "xmin" : -35565531.2720277086,
+        "ymin" : -28224965.757803686,
+        "xmax" : 35565531.27201321,
+        "ymax" : 35922733.9309391528,
+        "spatialReference" : {
+          "wkid" : 102014,
+          "latestWkid" : 102014
+        }
+      },
+      "elevationSurfaces" : [
+        {
+          "type" : "CIMMapElevationSurface",
+          "elevationMode" : "BaseGlobeSurface",
+          "name" : "Ground",
+          "verticalExaggeration" : 1,
+          "mapElevationID" : "{BC1303A6-2CD8-4DCF-9B2E-AAE1940D150C}",
+          "color" : {
+            "type" : "CIMRGBColor",
+            "values" : [
+              255,
+              255,
+              255,
+              100
+            ]
+          },
+          "surfaceTINShadingMode" : "Smooth",
+          "visibility" : true,
+          "expanded" : true
+        }
+      ],
+      "generalPlacementProperties" : {
+        "type" : "CIMMaplexGeneralPlacementProperties",
+        "invertedLabelTolerance" : 2,
+        "unplacedLabelColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            0,
+            0,
+            100
+          ]
+        },
+        "keyNumberGroups" : [
+          {
+            "type" : "CIMMaplexKeyNumberGroup",
+            "delimiterCharacter" : ".",
+            "horizontalAlignment" : "Left",
+            "maximumNumberOfLines" : 20,
+            "minimumNumberOfLines" : 2,
+            "name" : "Default",
+            "numberResetType" : "None"
+          }
+        ],
+        "placementQuality" : "High"
+      },
+      "snappingProperties" : {
+        "type" : "CIMSnappingProperties",
+        "xYTolerance" : 10,
+        "xYToleranceUnit" : "SnapXYToleranceUnitPixel",
+        "snapToSketchEnabled" : true,
+        "snapRequestType" : "SnapRequestType_GeometricAndVisualSnapping"
+      },
+      "spatialReference" : {
+        "wkid" : 102014,
+        "latestWkid" : 102014
+      },
+      "referenceScale" : 10182869.535321055,
+      "colorModel" : "RGB",
+      "scaleDisplayFormat" : "Value",
+      "clippingMode" : "None",
+      "nearPlaneClipDistanceMode" : "Automatic"
+    }
+  ],
+  "layoutDefinition" : {
+    "type" : "CIMLayout",
+    "name" : "Layout",
+    "uRI" : "CIMPATH=layout/layout.xml",
+    "sourceModifiedTime" : {
+      "type" : "TimeInstant"
+    },
+    "metadataURI" : "CIMPATH=Metadata/535087ceed3491c3451fced42b732356.xml",
+    "useSourceMetadata" : true,
+    "elements" : [
+      {
+        "type" : "CIMMapFrame",
+        "anchor" : "BottomLeftCorner",
+        "name" : "Map Frame",
+        "visible" : true,
+        "rotationCenter" : {
+          "x" : 10.0918448051991447,
+          "y" : 10.0918448051991323
+        },
+        "frame" : {
+          "hasZ" : true,
+          "rings" : [
+            [
+              [
+                10.0918448051991447,
+                138.6314618422544,
+                null
+              ],
+              [
+                199.914639950612354,
+                138.6314618422544,
+                null
+              ],
+              [
+                199.914639950612354,
+                10.0918448051991323,
+                null
+              ],
+              [
+                10.0918448051991447,
+                10.0918448051991323,
+                null
+              ],
+              [
+                10.0918448051991447,
+                138.6314618422544,
+                null
+              ]
+            ]
+          ]
+        },
+        "graphicFrame" : {
+          "type" : "CIMGraphicFrame",
+          "backgroundSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMPolygonSymbol"
+            }
+          },
+          "borderSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMLineSymbol",
+              "symbolLayers" : [
+                {
+                  "type" : "CIMSolidStroke",
+                  "enable" : true,
+                  "capStyle" : "Square",
+                  "joinStyle" : "Miter",
+                  "lineStyle3D" : "Strip",
+                  "miterLimit" : 10,
+                  "width" : 1,
+                  "color" : {
+                    "type" : "CIMRGBColor",
+                    "values" : [
+                      0,
+                      0,
+                      0,
+                      100
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "shadowSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMPolygonSymbol"
+            }
+          },
+          "shadowOffsetX" : 10,
+          "shadowOffsetY" : -10
+        },
+        "autoCamera" : {
+          "type" : "CIMAutoCamera",
+          "autoCameraType" : "Extent",
+          "marginType" : "Percent",
+          "source" : "None"
+        },
+        "uRI" : "CIMPATH=map1/map1.xml",
+        "view" : {
+          "type" : "CIMMapView",
+          "viewableObjectPath" : "CIMPATH=map/map.xml",
+          "viewingMode" : "Map",
+          "camera" : {
+            "type" : "CIMViewCamera",
+            "pitch" : -90,
+            "scale" : 10000000,
+            "x" : 275434.64432532323,
+            "y" : 1954658.0502042994,
+            "z" : "NaN",
+            "viewportHeight" : 1285396.1703705527,
+            "viewportWidth" : 1898227.9514541326
+          },
+          "verticalExaggerationScaleFactor" : 1,
+          "timeDisplay" : {
+            "type" : "CIMMapTimeDisplay",
+            "defaultTimeIntervalUnits" : "esriTimeUnitsUnknown",
+            "timeRelation" : "esriTimeRelationOverlaps"
+          },
+          "sceneDrawingMode" : "Perspective",
+          "fieldOfView" : 55
+        }
+      },
+      {
+        "type" : "CIMLegend",
+        "anchor" : "TopLeftCorner",
+        "name" : "Legend",
+        "visible" : true,
+        "rotationCenter" : {
+          "x" : 164.3819142561679,
+          "y" : 135.6314618422544
+        },
+        "frame" : {
+          "rings" : [
+            [
+              [
+                164.3819142561679,
+                80.1817369072165036
+              ],
+              [
+                164.3819142561679,
+                135.6314618422544
+              ],
+              [
+                197.704331616803074,
+                135.6314618422544
+              ],
+              [
+                197.704331616803074,
+                80.1817369072165036
+              ],
+              [
+                164.3819142561679,
+                80.1817369072165036
+              ]
+            ]
+          ]
+        },
+        "graphicFrame" : {
+          "type" : "CIMGraphicFrame",
+          "backgroundSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMPolygonSymbol",
+              "symbolLayers" : [
+                {
+                  "type" : "CIMSolidFill",
+                  "enable" : true,
+                  "color" : {
+                    "type" : "CIMRGBColor",
+                    "values" : [
+                      239,
+                      239,
+                      239,
+                      100
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "borderSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMLineSymbol",
+              "symbolLayers" : [
+                {
+                  "type" : "CIMSolidStroke",
+                  "enable" : true,
+                  "capStyle" : "Round",
+                  "joinStyle" : "Round",
+                  "lineStyle3D" : "Strip",
+                  "miterLimit" : 10,
+                  "width" : 1,
+                  "color" : {
+                    "type" : "CIMRGBColor",
+                    "values" : [
+                      178,
+                      178,
+                      178,
+                      100
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "shadowSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMPolygonSymbol"
+            }
+          },
+          "backgroundGapX" : 8.5039370078740202,
+          "backgroundGapY" : 8.5039370078740202,
+          "borderGapX" : 8.5039370078740202,
+          "borderGapY" : 8.5039370078740202,
+          "shadowOffsetX" : 10,
+          "shadowOffsetY" : -10
+        },
+        "mapFrame" : "Map Frame",
+        "autoAdd" : true,
+        "autoFonts" : true,
+        "autoReorder" : false,
+        "autoVisibility" : true,
+        "defaultPatchHeight" : 12,
+        "defaultPatchWidth" : 24,
+        "groupGap" : 5,
+        "headingGap" : 5,
+        "horizontalItemGap" : 5,
+        "horizontalPatchGap" : 5,
+        "minFontSize" : 6,
+        "scaleSymbols" : true,
+        "showTitle" : false,
+        "textGap" : 5,
+        "title" : "Legend",
+        "titleGap" : 5,
+        "titleSymbol" : {
+          "type" : "CIMSymbolReference",
+          "symbol" : {
+            "type" : "CIMTextSymbol",
+            "blockProgression" : "TTB",
+            "depth3D" : 1,
+            "extrapolateBaselines" : true,
+            "fontEffects" : "Normal",
+            "fontEncoding" : "Unicode",
+            "fontFamilyName" : "Tahoma",
+            "fontStyleName" : "Regular",
+            "fontType" : "Unspecified",
+            "haloSize" : 1,
+            "height" : 18,
+            "hinting" : "Default",
+            "horizontalAlignment" : "Left",
+            "kerning" : true,
+            "letterWidth" : 100,
+            "ligatures" : true,
+            "lineGapType" : "ExtraLeading",
+            "symbol" : {
+              "type" : "CIMPolygonSymbol",
+              "symbolLayers" : [
+                {
+                  "type" : "CIMSolidFill",
+                  "enable" : true,
+                  "color" : {
+                    "type" : "CIMRGBColor",
+                    "values" : [
+                      0,
+                      0,
+                      0,
+                      100
+                    ]
+                  }
+                }
+              ]
+            },
+            "textCase" : "Normal",
+            "textDirection" : "LTR",
+            "verticalAlignment" : "Bottom",
+            "verticalGlyphOrientation" : "Right",
+            "wordSpacing" : 100,
+            "billboardMode3D" : "FaceNearPlane"
+          }
+        },
+        "verticalItemGap" : 5,
+        "verticalPatchGap" : 5,
+        "layerNameGap" : 5,
+        "fittingStrategy" : "AdjustColumnsAndSize",
+        "groupLayerNameGap" : 5,
+        "columns" : 1
+      }
+    ],
+    "page" : {
+      "type" : "CIMPage",
+      "height" : 148,
+      "width" : 210,
+      "units" : {
+        "uwkid" : 1025
+      },
+      "showRulers" : true,
+      "showGuides" : true,
+      "smallestRulerDivision" : 0.01
+    },
+    "dateExported" : {
+      "type" : "TimeInstant"
+    },
+    "datePrinted" : {
+      "type" : "TimeInstant"
+    },
+    "colorModel" : "RGB"
+  }
+}
