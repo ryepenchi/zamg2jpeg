@@ -59,7 +59,6 @@ lyt = p.listLayouts("Layout")[0]
 # Defining the Layer
 # m.addBasemap("Hellgrauer Hintergrund") # bereits im Layout File definiert
 # m.addDataFromPath(os.path.join(p.defaultGeodatabase, "quakes"))# anscheinend nicht dasselbe wie hinzufügen zum Layout Element
-# lyr = m.listLayers('quakes')[0]
 lyt.listElements("MAPFRAME_ELEMENT")[0].map.addDataFromPath(os.path.join(p.defaultGeodatabase, "quakes"))
 lyr = lyt.listElements("MAPFRAME_ELEMENT")[0].map.listLayers("quakes")[0]
 
@@ -80,10 +79,7 @@ lyr.transparency = 30
 # Adding timestamp
 now = datetime.datetime.now()
 timeformat = "%d.%m.%Y %H:%M UTC+" + str(time.timezone // -3600)
-# timeformat = "%x %X (UTC +1)"
 now = now.strftime(timeformat)
-
-# lyt.listElements("LEGEND_ELEMENT")[0].showTitle = True
 for t in lyt.listElements("TEXT_ELEMENT"):
     if t.name == "date":
         t.text = "Zeitpunkt: " + now
