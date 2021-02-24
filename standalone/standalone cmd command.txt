@@ -1,3 +1,5 @@
 cd to Project directory
-"D:\Program Files\ArcGIS\Pro\bin\Python\Scripts\propy.bat" "D:\Dropbox\BA Geo\2020 WS\PS Software\Project\zamg2jpeg_standalone\zamg2jpg_arcgispro_standalone.py"
-"D:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" "D:\Dropbox\BA Geo\2020 WS\PS Software\Project\zamg2jpeg_standalone\zamg2jpg_arcgispro_standalone.py"
+
+"D:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3-clone\python.exe" "D:\Dropbox\BA Geo\2020 WS\PS Software\Project\zamg2jpeg\standalone\zamg2jpeg_arcgispro_standalone.py"
+
+"D:\Program Files\ArcGIS\Pro\bin\Python\Scripts\propy.bat" "D:\Dropbox\BA Geo\2020 WS\PS Software\Project\zamg2jpeg\standalone\zamg2jpeg_arcgispro_standalone.py"
