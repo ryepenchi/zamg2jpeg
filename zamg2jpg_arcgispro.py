@@ -19,7 +19,7 @@ r = requests.get(url)
 with open("lastday.json", "wb") as f:
     f.write(r.content)
 
-# priming work with ArcGIS Pro 2.7 Project File
+# priming work with ArcGIS Pro 2.4 Project File
 p = arcpy.mp.ArcGISProject("CURRENT")
 
 # arcpy Function converts json to Feature Layer. reason for choosing json over csv
@@ -27,7 +27,6 @@ arcpy.JSONToFeatures_conversion("lastday.json", os.path.join(p.defaultGeodatabas
 
 # Data Field calculations / type conversion for later use in Symbology
 arcpy.management.AddField('quakes', 'Magnitude', 'DOUBLE', '', '', '', 'Magnitude', '', '', '')
-
 expression = "try2float(!mag!)"
 code_block = """
 def try2float(mag):
@@ -35,7 +34,6 @@ def try2float(mag):
         return 0
     else:
         return float(mag)"""
-
 arcpy.management.CalculateField('quakes', 'Magnitude', expression, 'PYTHON3', code_block)
 
 # Check whether to use specific or local Layout File, download if none exists
@@ -57,8 +55,6 @@ p.importDocument(layout)
 lyt = p.listLayouts("Layout")[0]
 
 # Defining the Layer
-# m.addBasemap("Hellgrauer Hintergrund") # bereits im Layout File definiert
-# m.addDataFromPath(os.path.join(p.defaultGeodatabase, "quakes"))# anscheinend nicht dasselbe wie hinzufügen zum Layout Element
 lyt.listElements("MAPFRAME_ELEMENT")[0].map.addDataFromPath(os.path.join(p.defaultGeodatabase, "quakes"))
 lyr = lyt.listElements("MAPFRAME_ELEMENT")[0].map.listLayers("quakes")[0]
 
@@ -79,10 +75,12 @@ lyr.transparency = 30
 # Adding timestamp
 now = datetime.datetime.now()
 timeformat = "%d.%m.%Y %H:%M UTC+" + str(time.timezone // -3600)
-now = now.strftime(timeformat)
+ts = now.strftime(timeformat)
 for t in lyt.listElements("TEXT_ELEMENT"):
     if t.name == "date":
-        t.text = "Zeitpunkt: " + now
+        t.text = "Zeitpunkt: " + ts
 
 # Exporting to jpg
-lyt.exportToJPEG("exportmap.jpg")
+fn_timeformat = "%Y%m%d-%H%M"
+filename = "quakes_" + now.strftime(fn_timeformat)
+lyt.exportToJPEG(filename)
