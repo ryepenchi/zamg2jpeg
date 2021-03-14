@@ -23,7 +23,7 @@
     {
       "type" : "CIMFeatureLayer",
       "name" : "quakes",
-      "uRI" : "CIMPATH=map4/quakes.xml",
+      "uRI" : "CIMPATH=map45/quakes.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
@@ -69,7 +69,7 @@
         "editable" : true,
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=.\\MyProject2.gdb",
+          "workspaceConnectionString" : "DATABASE=D:\\Dropbox\\BA Geo\\2020 WS\\PS Software\\Project\\Abgabe\\ZAMG2JPEG\\MyProject2.gdb",
           "workspaceFactory" : "FileGDB",
           "dataset" : "quakes",
           "datasetType" : "esriDTFeatureClass"
@@ -1025,7 +1025,7 @@
     {
       "type" : "CIMTiledServiceLayer",
       "name" : "Weltweite Grundkarte mit hellgrauem Hintergrund",
-      "uRI" : "CIMPATH=map4/weltweite_grundkarte_mit_hellgrauem_hintergrund.xml",
+      "uRI" : "CIMPATH=map45/weltweite_grundkarte_mit_hellgrauem_hintergrund.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
@@ -1081,8 +1081,8 @@
   "mapDefinitions" : [
     {
       "type" : "CIMMap",
-      "name" : "Map4",
-      "uRI" : "CIMPATH=map4/map4.xml",
+      "name" : "Map45",
+      "uRI" : "CIMPATH=map45/map45.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant",
         "start" : 978307200000
@@ -1103,8 +1103,8 @@
         "enableEyeDomeLighting" : true
       },
       "layers" : [
-        "CIMPATH=map4/quakes.xml",
-        "CIMPATH=map4/weltweite_grundkarte_mit_hellgrauem_hintergrund.xml"
+        "CIMPATH=map45/quakes.xml",
+        "CIMPATH=map45/weltweite_grundkarte_mit_hellgrauem_hintergrund.xml"
       ],
       "defaultViewingMode" : "Map",
       "mapType" : "Map",
@@ -1312,7 +1312,7 @@
           "marginType" : "Percent",
           "source" : "None"
         },
-        "uRI" : "CIMPATH=map4/map4.xml",
+        "uRI" : "CIMPATH=map45/map45.xml",
         "view" : {
           "type" : "CIMMapView",
           "viewableObjectPath" : "CIMPATH=map/map.xml",
@@ -1445,254 +1445,6 @@
         "headingGap" : 5,
         "horizontalItemGap" : 5,
         "horizontalPatchGap" : 5,
-        "items" : [
-          {
-            "type" : "CIMHorizontalLegendItem",
-            "name" : "quakes",
-            "layerNameSymbol" : {
-              "type" : "CIMSymbolReference",
-              "symbol" : {
-                "type" : "CIMTextSymbol",
-                "blockProgression" : "TTB",
-                "depth3D" : 1,
-                "extrapolateBaselines" : true,
-                "fontEffects" : "Normal",
-                "fontEncoding" : "Unicode",
-                "fontFamilyName" : "Tahoma",
-                "fontStyleName" : "Regular",
-                "fontType" : "Unspecified",
-                "haloSize" : 1,
-                "height" : 16,
-                "hinting" : "Default",
-                "horizontalAlignment" : "Left",
-                "kerning" : true,
-                "letterWidth" : 100,
-                "ligatures" : true,
-                "lineGapType" : "ExtraLeading",
-                "symbol" : {
-                  "type" : "CIMPolygonSymbol",
-                  "symbolLayers" : [
-                    {
-                      "type" : "CIMSolidFill",
-                      "enable" : true,
-                      "color" : {
-                        "type" : "CIMRGBColor",
-                        "values" : [
-                          0,
-                          0,
-                          0,
-                          100
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "textCase" : "Normal",
-                "textDirection" : "LTR",
-                "verticalAlignment" : "Bottom",
-                "verticalGlyphOrientation" : "Right",
-                "wordSpacing" : 100,
-                "billboardMode3D" : "FaceNearPlane"
-              }
-            },
-            "columns" : 1,
-            "showHeading" : true,
-            "headingSymbol" : {
-              "type" : "CIMSymbolReference",
-              "symbol" : {
-                "type" : "CIMTextSymbol",
-                "blockProgression" : "TTB",
-                "depth3D" : 1,
-                "extrapolateBaselines" : true,
-                "fontEffects" : "Normal",
-                "fontEncoding" : "Unicode",
-                "fontFamilyName" : "Tahoma",
-                "fontStyleName" : "Regular",
-                "fontType" : "Unspecified",
-                "haloSize" : 1,
-                "height" : 14,
-                "hinting" : "Default",
-                "horizontalAlignment" : "Left",
-                "kerning" : true,
-                "letterWidth" : 100,
-                "ligatures" : true,
-                "lineGapType" : "ExtraLeading",
-                "symbol" : {
-                  "type" : "CIMPolygonSymbol",
-                  "symbolLayers" : [
-                    {
-                      "type" : "CIMSolidFill",
-                      "enable" : true,
-                      "color" : {
-                        "type" : "CIMRGBColor",
-                        "values" : [
-                          0,
-                          0,
-                          0,
-                          100
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "textCase" : "Normal",
-                "textDirection" : "LTR",
-                "verticalAlignment" : "Bottom",
-                "verticalGlyphOrientation" : "Right",
-                "wordSpacing" : 100,
-                "billboardMode3D" : "FaceNearPlane"
-              }
-            },
-            "showLabels" : true,
-            "layer" : "CIMPATH=map4/quakes.xml",
-            "showDescription" : true,
-            "labelSymbol" : {
-              "type" : "CIMSymbolReference",
-              "symbol" : {
-                "type" : "CIMTextSymbol",
-                "blockProgression" : "TTB",
-                "depth3D" : 1,
-                "extrapolateBaselines" : true,
-                "fontEffects" : "Normal",
-                "fontEncoding" : "Unicode",
-                "fontFamilyName" : "Tahoma",
-                "fontStyleName" : "Regular",
-                "fontType" : "Unspecified",
-                "haloSize" : 1,
-                "height" : 12,
-                "hinting" : "Default",
-                "horizontalAlignment" : "Left",
-                "kerning" : true,
-                "letterWidth" : 100,
-                "ligatures" : true,
-                "lineGapType" : "ExtraLeading",
-                "symbol" : {
-                  "type" : "CIMPolygonSymbol",
-                  "symbolLayers" : [
-                    {
-                      "type" : "CIMSolidFill",
-                      "enable" : true,
-                      "color" : {
-                        "type" : "CIMRGBColor",
-                        "values" : [
-                          0,
-                          0,
-                          0,
-                          100
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "textCase" : "Normal",
-                "textDirection" : "LTR",
-                "verticalAlignment" : "Center",
-                "verticalGlyphOrientation" : "Right",
-                "wordSpacing" : 100,
-                "billboardMode3D" : "FaceNearPlane"
-              }
-            },
-            "descriptionSymbol" : {
-              "type" : "CIMSymbolReference",
-              "symbol" : {
-                "type" : "CIMTextSymbol",
-                "blockProgression" : "TTB",
-                "depth3D" : 1,
-                "extrapolateBaselines" : true,
-                "fontEffects" : "Normal",
-                "fontEncoding" : "Unicode",
-                "fontFamilyName" : "Tahoma",
-                "fontStyleName" : "Regular",
-                "fontType" : "Unspecified",
-                "haloSize" : 1,
-                "height" : 12,
-                "hinting" : "Default",
-                "horizontalAlignment" : "Left",
-                "kerning" : true,
-                "letterWidth" : 100,
-                "ligatures" : true,
-                "lineGapType" : "ExtraLeading",
-                "symbol" : {
-                  "type" : "CIMPolygonSymbol",
-                  "symbolLayers" : [
-                    {
-                      "type" : "CIMSolidFill",
-                      "enable" : true,
-                      "color" : {
-                        "type" : "CIMRGBColor",
-                        "values" : [
-                          0,
-                          0,
-                          0,
-                          100
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "textCase" : "Normal",
-                "textDirection" : "LTR",
-                "verticalAlignment" : "Center",
-                "verticalGlyphOrientation" : "Right",
-                "wordSpacing" : 100,
-                "billboardMode3D" : "FaceNearPlane"
-              }
-            },
-            "autoVisibility" : false,
-            "classIndent" : 5,
-            "headingIndent" : 5,
-            "layerNameIndent" : 5,
-            "showGroupLayerName" : true,
-            "groupLayerNameSymbol" : {
-              "type" : "CIMSymbolReference",
-              "symbol" : {
-                "type" : "CIMTextSymbol",
-                "blockProgression" : "TTB",
-                "depth3D" : 1,
-                "extrapolateBaselines" : true,
-                "fontEffects" : "Normal",
-                "fontEncoding" : "Unicode",
-                "fontFamilyName" : "Tahoma",
-                "fontStyleName" : "Regular",
-                "fontType" : "Unspecified",
-                "haloSize" : 1,
-                "height" : 16,
-                "hinting" : "Default",
-                "horizontalAlignment" : "Left",
-                "kerning" : true,
-                "letterWidth" : 100,
-                "ligatures" : true,
-                "lineGapType" : "ExtraLeading",
-                "symbol" : {
-                  "type" : "CIMPolygonSymbol",
-                  "symbolLayers" : [
-                    {
-                      "type" : "CIMSolidFill",
-                      "enable" : true,
-                      "color" : {
-                        "type" : "CIMRGBColor",
-                        "values" : [
-                          0,
-                          0,
-                          0,
-                          100
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "textCase" : "Normal",
-                "textDirection" : "LTR",
-                "verticalAlignment" : "Bottom",
-                "verticalGlyphOrientation" : "Right",
-                "wordSpacing" : 100,
-                "billboardMode3D" : "FaceNearPlane"
-              }
-            },
-            "isVisible" : true,
-            "arrangement" : "PatchLabelDescription"
-          }
-        ],
         "minFontSize" : 6,
         "scaleSymbols" : true,
         "showTitle" : false,
